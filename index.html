@@ -1,10 +1,146 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="UTF-8" />
+    <script src="https://kit.fontawesome.com/6353849868.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
     <title>Résumé</title>
   </head>
   <body>
-    ― Hello World! &#x1F609;
-  </body>
-</html>
+    <main>
+      <div id="mouse-circle-1"></div>
+      <div id="mouse-circle-2"></div>
+      <div id="back-circle-1"></div>
+      <div id="back-circle-2"></div>
+      <div id="back-circle-3"></div>
+      <div id="back-circle-4"></div>
+      <div class="resume" style="position: relative;">
+        <div class="container">
+          <div class="resume__block">
+            <h1 class="contact-info__header">Koval Vadym</h1>
+            <h3 class="contact-info__sub-header">Student</h3>
+            <div class="contact_info_container fh">
+              <div class="contact-info__block">
+                <a href="" rel="author" class="contact-info__item">
+                  <div class="contact-info__item-icon-wrapper">
+                    <i class="fa-solid fa-building"></i>
+                  </div>
+                  <span>Kyiv, Ukraine</span>
+                </a>
+                <a href="https://github.com/koval0v" rel="author" class="contact-info__item">
+                  <div class="contact-info__item-icon-wrapper">
+                    <i class="fa-brands fa-github"></i>
+                  </div>
+                  <span>koval0v</span>
+                </a>
+              </div>
+            
+              <div class="contact-info__block contact-info__block--center">
+                <img class="contact-info__avatar" src="assets/myava-new.png" alt="Avatar">
+              </div>
+    
+              <div class="contact-info__block">
+                <a href="" rel="author" class="contact-info__item">
+                  <div class="contact-info__item-icon-wrapper">
+                    <i class="fa-brands fa-google"></i>
+                  </div>
+                  <span>vzlobinkov</span>
+                </a>
+                <a href="" rel="author" class="contact-info__item">
+                  <div class="contact-info__item-icon-wrapper">
+                    <i class="fa-solid fa-phone"></i>
+                  </div>
+                  <span>+380960000000</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="resume__block">
+            <div class="intro">
+              <div class="intro__icon-wrapper">
+                <svg class="intro__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                  <path
+                    d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z">
+                  </path>
+                </svg>
+              </div>
+              <p class="intro_text">Hello! I am Koval Vadym and I am 19 y.o. My hobby is programming, C# especially. I like new challenges. Generally, I am glad to take part in Binary Academy!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="resume__block">
+            <div class="skills">
+              <h3 class="skills__header">Skills</h3>
+              <p class="skills__text">Improved leadership, communication and time management skills. I am a team player. I know such technologies as HTML, CSS, Javascript, C# and SQL.</p>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="resume__block">
+            <div class="main-info fh">
+        
+              <div class="experiences">
+                <h3 class="experiences__header">Experience</h3>
+                <div class="experiences__company">
+                  <div class="experiences__company-header">
+                    <span class="experiences__company-header-durability">2020 - 2022</span>
+                    <h3 class="experiences__company-header-name">National Technical University of Ukraine
+                      “Igor Sikorsky Kyiv Polytechnic Institute”</h3>
+                  </div>
+              
+                  <div class="experiences__company-project">
+                    <span class="experiences__company-project-role">My homeworks experience</span>
+                    <h3 class="experiences__company-project-name">Laboratory</h3>
+                    <ul class="experiences__company-project-responsibilities">
+                      <li>Based constuctions of C#</li>
+                      <li>OOP: classes, constuctors, events etc.</li>
+                      <li>LINQ in C#</li>
+                      <li>Entity Framework and other WEB technolodgies in C#</li>
+                      <li>Patterns of programmingS</li>
+                    </ul>
+                    <h3 class="experiences__company-project-name" style="padding-top: 5%;">Coursework</h3>
+                    <ul class="experiences__company-project-responsibilities">
+                      <li>Console app "Hotel": OOP in C#</li>
+                      <li>Database and WEB with C#</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="additional-info fv">
+                <div class="additional-info__education">
+                  <h3 class="additional-info__education-header">Education</h3>
+                  <div class="additional-info__education-university">
+                    <span class="additional-info__education-university-durability">2009-2020</span>
+                    <h3 class="additional-info__education-university-speciality">School</h3>
+                    <p class="additional-info__education-university-name" style="padding-bottom: 5%;">Liceum of Zhytomyr region</p>
+                    <span class="additional-info__education-university-durability">2020-now</span>
+                    <h3 class="additional-info__education-university-speciality">University</h3>
+                    <p class="additional-info__education-university-name">Igor Sikorsky Kyiv Polytechnic Institute</p>
+                  </div>
+                </div>
+              
+                <div class="additional-info__languages">
+                  <h3 class="additional-info__languages-header">Languages</h3>
+                  <p class="additional-info__languages-item">
+                    Ukrainian
+                  </p>
+                  <p class="additional-info__languages-item">
+                    Russian
+                  </p>
+                  <p class="additional-info__languages-item">
+                    English
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  </div>
+</main>

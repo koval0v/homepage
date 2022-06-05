@@ -7,13 +7,13 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
-
-    --primary-text-color: #181820;
-    --secondary-text-color: #5c5c62;
-    --durability-text-color: #6a737d9c;
+    background-color: #f0f1f3;
+    --primary-text-color: #112d52;
+    --secondary-text-color: #214370;
+    --durability-text-color: #858f9c;
     --icon-color: #6a737d;
-    --border-color: #ff9a0045;
-    --text-decoration-color: #ff9a00;
+    --border-color: #8ee2c9cd;
+    --text-decoration-color: #63e7bf;
 }
 
 .container {
@@ -36,8 +36,9 @@ body {
 
 .resume {
     margin: 50px auto;
-    border: 1px solid #f5f5f5;
-    box-shadow: 1px 1px 7px 7px #f5f5f5;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 25px;
     padding: 30px 0;
     max-width: 900px;
 }
@@ -260,4 +261,72 @@ body {
 
 .additional-info__languages-item {
     color: var(--secondary-text-color);
+}
+
+
+ #mouse-circle-1 {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    margin: -32px 0 0 -32px;
+    border: 1px solid #8ee2c9cd;
+    background-color: #8ee2c9cd;
+    border-radius: 20%;
+    pointer-events: none;
+}
+
+ #mouse-circle-2 {
+    position: absolute;
+    width: 190px;
+    height: 190px;
+    margin: -32px 0 0 -32px;
+    border: 5px solid #214370;
+    border-radius: 10%;
+    pointer-events: none;
+}
+
+ #back-circle-1 {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    margin-left: 170px;
+    margin-top: 200px;
+    border: 6px solid #214370;
+    background-color: #214370;
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+#back-circle-2 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    margin-left: 1150px;
+    margin-top: 900px;
+    border: 6px solid #8ee2c9cd;
+    background-color: #8ee2c9cd;
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+#back-circle-3 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    margin-left: 150px;
+    margin-top: 400px;
+    border: 6px solid #8ee2c9cd;
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+#back-circle-4 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    margin-left: 1100px;
+    margin-top: 850px;
+    border: 6px solid #214370;
+    border-radius: 50%;
+    pointer-events: none;
 }
