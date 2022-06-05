@@ -262,3 +262,70 @@ body {
 .additional-info__languages-item {
     color: var(--secondary-text-color);
 }
+
+ #mouse-circle-1 {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    margin: -32px 0 0 -32px;
+    border: 1px solid #8ee2c9cd;
+    background-color: #8ee2c9cd;
+    border-radius: 20%;
+    pointer-events: none;
+}
+
+ #mouse-circle-2 {
+    position: absolute;
+    width: 190px;
+    height: 190px;
+    margin: -32px 0 0 -32px;
+    border: 5px solid #214370;
+    border-radius: 10%;
+    pointer-events: none;
+}
+
+ #back-circle-1 {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    margin-left: 170px;
+    margin-top: 200px;
+    border: 6px solid #214370;
+    background-color: #214370;
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+#back-circle-2 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    margin-left: 1150px;
+    margin-top: 900px;
+    border: 6px solid #8ee2c9cd;
+    background-color: #8ee2c9cd;
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+#back-circle-3 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    margin-left: 150px;
+    margin-top: 400px;
+    border: 6px solid #8ee2c9cd;
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+#back-circle-4 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    margin-left: 1100px;
+    margin-top: 850px;
+    border: 6px solid #214370;
+    border-radius: 50%;
+    pointer-events: none;
+}
